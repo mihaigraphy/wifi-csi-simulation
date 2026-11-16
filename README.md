@@ -134,9 +134,6 @@ source .venv/bin/activate && pip install -r requirements.txt
 - Le port virtuel `/tmp/vport_pc` n'est pas une adresse LAN réelle. Il doit provenir d'un routeur virtuel ou d'un emulateur (e.g. **Piwik**, **WireGuard** bare-metal, ou une prise directe de l'étiquetage FRD/OSSFAOD). Vérifiez qu'il est accessible depuis le sysctl / firewalld / ufw.
 - Les paramètres CSI en temps réel proviennent du flux numérique SNR (suggestion de la couche 5 GHz). Pour produire les vues radaro, vous devez disposer du localizer (BTS/AP position/intensity).
 
-## 💬 Aide
-
-- Questions, modifications de modes ou requêtes sur le filtrage → contactez le maintaineur via la console Zed (agent `Zed`).
 
 ---
 *Version 1.0 – Draft generated for "Mespi / Simulation" project.*
